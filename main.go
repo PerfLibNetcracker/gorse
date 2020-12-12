@@ -1,7 +1,13 @@
 package main
 
-import "github.com/PerfLibNetcracker/gorse/cmd"
+import (
+	"fmt"
+	"github.com/PerfLibNetcracker/gorse/cmd"
+)
+import "os"
 
 func main() {
+	var tes = os.Args[0]
+	fmt.Println(tes)
 	cmd.Main()
 }

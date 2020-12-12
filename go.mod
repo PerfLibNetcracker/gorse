@@ -13,5 +13,4 @@ require (
 	github.com/thanhpk/randstr v1.0.4
 	go.etcd.io/bbolt v1.3.5
 	gonum.org/v1/gonum v0.0.0-20190409070159-6e46824336d2
-	gopkg.in/cheggaaa/pb.v1 v1.0.27
 )

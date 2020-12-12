@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 	"github.com/BurntSushi/toml"
-	"github.com/spf13/cobra"
 	"github.com/PerfLibNetcracker/gorse/engine"
+	"github.com/spf13/cobra"
 	"log"
 	"strconv"
 	"time"
@@ -95,6 +95,6 @@ func watch(config engine.TomlConfig, metaData toml.MetaData) {
 			log.Printf("recommends update-to-date, commit = %v", count)
 		}
 		// Sleep
-		time.Sleep(time.Duration(config.Recommend.CheckPeriod) * time.Minute)
+		time.Sleep(time.Duration(config.Recommend.CheckPeriod) * time.Second)
 	}
 }
