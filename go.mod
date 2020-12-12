@@ -1,5 +1,7 @@
 module github.com/zhenghaoz/gorse
 
+go 1.15
+
 require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/araddon/dateparse v0.0.0-20190622164848-0fb0a474d195
