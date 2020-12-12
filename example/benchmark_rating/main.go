@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"github.com/olekukonko/tablewriter"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/core"
-	"github.com/zhenghaoz/gorse/model"
+	"github.com/PerfLibNetcracker/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/core"
+	"github.com/PerfLibNetcracker/gorse/model"
 	"log"
 	"os"
 	"reflect"

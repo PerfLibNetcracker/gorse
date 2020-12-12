@@ -3,8 +3,8 @@ package engine
 import (
 	"github.com/stretchr/testify/assert"
 	"github.com/thanhpk/randstr"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/core"
+	"github.com/PerfLibNetcracker/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/core"
 	"os"
 	"path"
 	"runtime"

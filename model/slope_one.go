@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/core"
+	"github.com/PerfLibNetcracker/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/core"
 )
 
 // SlopeOne [4] predicts ratings by the form f(x) = x + b, which precompute

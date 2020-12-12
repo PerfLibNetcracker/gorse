@@ -78,7 +78,7 @@ func init() {
 	usr, err := user.Current()
 	if err != nil {
 		log.Fatal("Error while init() file built_in.go in package core "+
-			"see https://github.com/zhenghaoz/gorse/issues/3", err)
+			"see https://github.com/PerfLibNetcracker/gorse/issues/3", err)
 	}
 
 	GorseDir = usr.HomeDir + "/.gorse"

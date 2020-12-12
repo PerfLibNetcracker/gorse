@@ -3,7 +3,7 @@ package core
 import (
 	"bytes"
 	"encoding/gob"
-	"github.com/zhenghaoz/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/base"
 	"gonum.org/v1/gonum/stat"
 	"math"
 	"reflect"

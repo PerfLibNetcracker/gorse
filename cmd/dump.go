@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/zhenghaoz/gorse/engine"
+	"github.com/PerfLibNetcracker/gorse/engine"
 	"log"
 	"time"
 )

@@ -2,8 +2,8 @@ package model
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/core"
+	"github.com/PerfLibNetcracker/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/core"
 	"reflect"
 	"testing"
 )

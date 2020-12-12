@@ -3,8 +3,8 @@ package engine
 import (
 	"fmt"
 	"github.com/BurntSushi/toml"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/core"
+	"github.com/PerfLibNetcracker/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/core"
 	"log"
 )
 

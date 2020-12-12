@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/floats"
+	"github.com/PerfLibNetcracker/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/floats"
 	"math"
 )
 

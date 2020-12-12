@@ -1,7 +1,7 @@
 package model
 
-import "github.com/zhenghaoz/gorse/core"
-import "github.com/zhenghaoz/gorse/base"
+import "github.com/PerfLibNetcracker/gorse/core"
+import "github.com/PerfLibNetcracker/gorse/base"
 
 /* Base */
 

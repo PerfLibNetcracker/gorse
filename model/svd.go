@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/core"
-	"github.com/zhenghaoz/gorse/floats"
+	"github.com/PerfLibNetcracker/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/core"
+	"github.com/PerfLibNetcracker/gorse/floats"
 	"gonum.org/v1/gonum/mat"
 	"log"
 	"math"

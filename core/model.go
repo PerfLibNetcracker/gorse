@@ -1,6 +1,6 @@
 package core
 
-import "github.com/zhenghaoz/gorse/base"
+import "github.com/PerfLibNetcracker/gorse/base"
 
 // ModelInterface is the interface for all models. Any model in this
 // package should implement it.

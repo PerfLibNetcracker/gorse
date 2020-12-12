@@ -1,7 +1,7 @@
 package core
 
 import "math/rand"
-import "github.com/zhenghaoz/gorse/base"
+import "github.com/PerfLibNetcracker/gorse/base"
 
 // Split dataset to a training set and a test set with ratio.
 func Split(data DataSetInterface, testRatio float64) (train, test DataSetInterface) {

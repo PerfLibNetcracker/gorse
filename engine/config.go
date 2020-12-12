@@ -2,9 +2,9 @@ package engine
 
 import (
 	"github.com/BurntSushi/toml"
-	"github.com/zhenghaoz/gorse/base"
-	"github.com/zhenghaoz/gorse/core"
-	"github.com/zhenghaoz/gorse/model"
+	"github.com/PerfLibNetcracker/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/core"
+	"github.com/PerfLibNetcracker/gorse/model"
 	"log"
 	"path"
 )

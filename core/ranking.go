@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/zhenghaoz/gorse/base"
+	"github.com/PerfLibNetcracker/gorse/base"
 	"math"
 )
 
