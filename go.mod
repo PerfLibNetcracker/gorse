@@ -1,4 +1,4 @@
-module github.com/zhenghaoz/gorse
+module github.com/PerfLibNetcracker/gorse
 
 go 1.15
 
