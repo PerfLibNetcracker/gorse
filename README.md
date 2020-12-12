@@ -98,4 +98,5 @@ Language: Russian Perflib | [English](https://github.com/zhenghaoz/gorse/blob/ma
             ]
         ```
 В сервисе ещё остались парочку эндпоинтов, но думаю для начала хватит и этих
+
 Если понадобятся другие, то можно глянуть на них в файле `cmd/rest.go`
