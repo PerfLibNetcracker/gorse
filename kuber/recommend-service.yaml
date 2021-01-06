@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: recommend
+  labels:
+    app: recommend
+spec:
+  ports:
+    - name: gorse
+      protocol: TCP
+      port: 8081
+  selector:
+   app: recommend

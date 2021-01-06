@@ -5,7 +5,7 @@ port = 8081             # server port
 
 # This section declares setting for the database.
 [database]
-file = "gorse.db"  # database file
+file = "database/gorse.db"  # database file
 
 # This section declares settings for recommendation.
 [recommend]

@@ -7,6 +7,7 @@ COPY . .
 RUN go build -o main .
 
 FROM golang:1.15-alpine
+RUN mkdir database
 COPY --from=builder /app/main .
 COPY --from=builder /app/bin/config/gorse_docker.toml .
 EXPOSE 8081

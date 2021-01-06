@@ -1,0 +1,30 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: recommend-pv-volume
+  labels:
+    app: recommend
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    type: DirectoryOrCreate
+    path: "/mnt/recommend"
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: recommend-pv-claim
+  labels:
+    app: recommend
+spec:
+  selector:
+    matchLabels:
+      app: recommend
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi
