@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: recommend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: recommend
+  template:
+    metadata:
+      labels:
+        app: recommend
+    spec:
+      volumes:
+        - name: recommendb
+          persistentVolumeClaim:
+            claimName: recommend-pv-claim
+      containers:
+        - name: recommend
+          image: plyshka/recommend_server_perflib:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8081
+          volumeMounts:
+            - mountPath: '/go/database'
+              name: recommendb
