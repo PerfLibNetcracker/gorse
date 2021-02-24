@@ -1,4 +1,4 @@
-Language: Russian Perflib | [English](https://github.com/PerfLibNetcracker/gorse/blob/master/README.en.us.md)
+anguage: Russian Perflib | [English](https://github.com/PerfLibNetcracker/gorse/blob/master/README.en.us.md)
 
 ### Краткое описание как запустить через docker
 1. Конечно же скачать сам докер (с этим возможно могут быть проблемы на винде)
